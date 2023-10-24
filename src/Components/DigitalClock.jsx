@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import './DigitalClock.css';
 
-function DigitalClock() {
+ const DigitalClock =() => {
   const [digitalClock, setDigitalClockState] = useState();
 
   useEffect(() => {
@@ -14,7 +15,7 @@ function DigitalClock() {
   }, []);
 
   return (
-    <div>{digitalClock}</div>
+    <div className='digital-clock'>{digitalClock}</div>
   );
 }
 

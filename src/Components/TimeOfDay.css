@@ -1,0 +1,9 @@
+img {
+  width: 100%;
+}
+
+.greeting {
+  color: whitesmoke;
+  font-size: 2rem;
+  text-shadow: gray 2px 2px;
+}
