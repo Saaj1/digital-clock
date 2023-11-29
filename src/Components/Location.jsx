@@ -27,7 +27,7 @@ const Location = () => {
   }, []);
 
   const reverseGeocode = async (latitude, longitude) => {
-    const apiKey = 'fc15ac1d39986f3f107b4c766e741dc0';
+    const apiKey = import.meta.env.VITE_SOME_KEY
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
 
     try {
