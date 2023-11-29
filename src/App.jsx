@@ -1,6 +1,6 @@
-import React from 'react'
 import DigitalClock from './Components/DigitalClock'
 import TimeOfDay from './Components/TimeOfDay'
+import Location from './Components/Location'
 import './App.css'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <div className="container">
         <DigitalClock />
         <TimeOfDay />
+        <Location />
       </div>
     </>
   )
